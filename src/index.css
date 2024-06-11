@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* ------------------- navbar ---------------------------  */
+    .navbar {
+        @apply bg-black text-white flex justify-between items-center px-20 py-5;
+    }
+    .navbar-btn {
+        @apply bg-gray-500 text-white px-4 py-2 rounded-md border-2 border-gray-500 hover:bg-gray-700 hover:border-gray-700 hover:text-primary;
+    }
+    .navul {
+      @apply text-white flex gap-6 items-center justify-end flex-wrap;
+    }
+    .navlinks {
+      @apply hover:text-primary;
+    }
+}
