@@ -32,7 +32,7 @@ const UserProfile = ({
                     <li>Games Lost</li> : <li>{gamesLost}</li>
                 </ul>
             </div> */}
-            <div className="stats">
+            <div>
                 <table>
                     <tr>
                         <td>Points</td> : 

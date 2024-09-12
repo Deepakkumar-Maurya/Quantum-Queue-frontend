@@ -5,9 +5,9 @@ import UserProfile from "../components/UserProfile";
 const UserDashboard = () => {
     return (
         <>
-            <Navbar isHomePage={false} logoName="Quantum Queue" logoImgSrc="" />
+            <Navbar isHomePage={false} logoTxtSrc="/logo-txt.svg" logoImgSrc="" />
             <div className="w-full flex gap-4">
-                <div className="w-1/6">
+                <div className="w-1/6 hidden md:block">
                     <UserProfile
                         userimg="/profile-img.svg"
                         userName="Deepak Maurya"
@@ -19,7 +19,7 @@ const UserDashboard = () => {
                     />
                 </div>
 
-                <div className="w-5/6 overflow-y-auto max-h-[91vh]">
+                <div className="overflow-y-auto max-h-[91vh]">
                     {/* Trending Games  */}
                     <div>
                         <h1>Trending Games</h1>
